@@ -80,17 +80,9 @@ header{
         text-align: center;
         
     }
-    .penguin-cart div{
-        display: block;
-    }
-    .cart-img{
-        display: block;
-    }
-    #under-shopping-cart{
-        width: 100%;
-    }
-    #shopping-cart{
-        width: 100% !important;
+   
+    .cart-img-column-reverse{
+        flex-direction: column-reverse;
     }
     
 }
