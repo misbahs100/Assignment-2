@@ -40,7 +40,7 @@ header{
 }
 .penguin-button{
     border-radius: 1em;
-    background-color: rgb(6, 138, 6) !important;
+    background-color: rgba(98, 138, 6, 0.76) !important;
     
     
 }
@@ -72,21 +72,6 @@ header{
     background-color: gray;
     justify-content: center;
 } */
-@media (max-width: 576px){
-    .product-h1, .penguin-contactus{
-        text-align: center;
-    }
-    .penguin-cart{
-        text-align: center;
-        
-    }
-   
-    .cart-img-column-reverse{
-        flex-direction: column-reverse;
-    }
-    
-}
-
 .woman-footer{
    background-color: white !important;
 }
@@ -113,20 +98,11 @@ header{
 }
 .cart-img img{
     width: 80px;
-    margin-right: 60px;
-    margin-left: 20px;
-}
-.cart-img{
-    
-
+    margin-right: 40px;
+    margin-left: 40px;
 }
 .penguin-cart{
     border-radius: 1em;
-}
-.icons{
-    /* margin-top: 0%;
-    margin-left: 40%; */
-   
 }
 .icons img{
     width:50px;
@@ -142,4 +118,26 @@ header{
     background-color: black;
     font-size: 12px;
     color: gray;
+}
+
+/* media queries --------- */
+
+@media (max-width: 576px){
+    .product-h1, .penguin-contactus{
+        text-align: center;
+    }
+    .penguin-cart{
+        text-align: center;
+        
+    }
+   
+    .cart-img-column-reverse{
+        flex-direction: column-reverse;
+    }
+   .penguin-cart{
+       flex-direction: column;
+   }
+   .cart-img{
+       justify-content: center;
+   }
 }
