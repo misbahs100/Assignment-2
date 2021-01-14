@@ -1,0 +1,153 @@
+body{
+    font-family: 'Roboto', sans-serif !important;
+    
+}
+header{
+    background-color: rgb(245, 235, 223);
+  
+}
+.penguin-font{
+    font-weight: 900;
+    font-size: 50px;
+}
+.orange-highlight{
+    
+    color: orange;
+}
+.navy-highlight{
+    
+    color: rgb(5, 5, 94);
+}
+
+.penguin-navbar-img img{
+    width: 300px;
+}
+.penguin-navbar-list ul li  {
+    /* align-items: right; */
+  /* margin-left: 400px; */
+  padding-left: 20px;
+}
+
+/* .navbar{
+    border: 1px solid red;
+} */
+.penguin-section img{
+    width: 100%;
+    /* height: 300px;
+    width:  300px;
+    margin-left: 20px;  */
+     
+}
+.penguin-button{
+    border-radius: 1em;
+    background-color: rgb(6, 138, 6) !important;
+    
+    
+}
+.penguin-button img{
+    width:20px;
+}
+/* .penguin-button-2 img{
+    width: 20px;
+}
+.penguin-woman-card img{
+    width: 80%;
+    height: 50%;
+    background-color: rgb(228, 226, 226);
+    border-radius: 1em;
+} */
+/* .woman-button{
+    display: flex;
+    align-items: center;
+
+}
+.woman-img img{
+    width: 50%;
+    height: 200px;
+    /* background-color: rgb(218, 216, 216); 
+    justify-content: center;
+    
+}
+.woman-img-2{
+    background-color: gray;
+    justify-content: center;
+} */
+@media (max-width: 576px){
+    .product-h1, .penguin-contactus{
+        text-align: center;
+    }
+    .penguin-cart{
+        text-align: center;
+        
+    }
+    .penguin-cart div{
+        display: block;
+    }
+    .cart-img{
+        display: block;
+    }
+    #under-shopping-cart{
+        width: 100%;
+    }
+    #shopping-cart{
+        width: 100% !important;
+    }
+    
+}
+
+.woman-footer{
+   background-color: white !important;
+}
+.jacket-img{
+    background-color: rgb(235, 230, 230);
+    height: 60%;
+    border-radius: 1em;
+}
+.jacket-img img{
+    justify-content: center;
+    width: 65%;
+    height: 250px;
+    margin-left: 18%;
+   
+}
+.woman-card{
+    
+    border-radius: 1em !important;
+}
+
+.shopping-cart-img img{
+    width: 90%;
+    
+}
+.cart-img img{
+    width: 80px;
+    margin-right: 60px;
+    margin-left: 20px;
+}
+.cart-img{
+    
+
+}
+.penguin-cart{
+    border-radius: 1em;
+}
+.icons{
+    /* margin-top: 0%;
+    margin-left: 40%; */
+   
+}
+.icons img{
+    width:50px;
+    height: 50px;
+    margin-right: 10px;
+    
+}
+#contactus{
+    background-color: black;
+
+}
+.penguin-footer{
+    background-color: black;
+    font-size: 12px;
+    color: gray;
+}
